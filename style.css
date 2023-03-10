@@ -1,29 +1,35 @@
-body {
-   background-color: aqua;
-}
 
-#bd {
-color: rgb(0, 0, 0);
-text-align: center;
-font-family: verdana;
-text-shadow : rgb(255, 255, 255) 3px 3px;
-font-size: 30px;
-}
-
-header {
-	height: 5rem;
-	width: 100%;
-	background-color: rgb(146, 146, 146);
+body{
 	text-align: center;
-	}
-	
-	*{
-	margin: 0px;
-	}
+	font-size: 15px;
+	font-family: Verdana;
+	color: white;
+}
 
-   #lorem {
-      color: rgb(255, 255, 255);
-      text-shadow: rgb(77, 77, 77) 3px 3px;
-      font-family: verdana;
-      font-size: 20px;
-      }
+h4 {
+	text-align: justify;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box-degrade {
+	width: 100%;
+	padding: 94px 0;
+	
+	background-image: linear-gradient(to left, blue, orangered, yellow, rgb(0, 255, 0), blue, orangered);
+	background-size:500% 100%;
+	animation: degrade-animado 5s infinite reverse;
+}
+
+@keyframes degrade-animado {
+	0%{
+		background-position-x: 0%;
+	}
+	100%{
+		background-position-x: 100%;
+	}
+}
