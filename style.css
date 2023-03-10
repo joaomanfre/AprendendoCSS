@@ -3,10 +3,10 @@ body {
 }
 
 #bd {
-color: rgb(243, 171, 243);
+color: rgb(0, 0, 0);
 text-align: center;
 font-family: verdana;
-text-shadow : rgb(178, 178, 2) 3px 3px;
+text-shadow : rgb(255, 255, 255) 3px 3px;
 font-size: 30px;
 }
 
@@ -22,8 +22,8 @@ header {
 	}
 
    #lorem {
-      color: rgb(255, 180, 180);
-      text-shadow: rgb(0, 94, 0) 3px 3px;
+      color: rgb(255, 255, 255);
+      text-shadow: rgb(77, 77, 77) 3px 3px;
       font-family: verdana;
       font-size: 20px;
       }
