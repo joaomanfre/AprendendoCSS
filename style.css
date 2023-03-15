@@ -2,8 +2,9 @@
 body{
 	text-align: center;
 	font-size: 15px;
-	font-family: Verdana;
-	color: white;
+	font-family: candara;
+	color: rgb(0, 0, 0);
+
 }
 
 h4 {
@@ -14,12 +15,13 @@ h4 {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	vertical-align: middle;
 }
 
 .box-degrade {
 	width: 100%;
-	padding: 94px 0;
-	
+	padding: 1px 0;
+
 	background-image: linear-gradient(to left, blue, orangered, yellow, rgb(0, 255, 0), blue, orangered);
 	background-size:500% 100%;
 	animation: degrade-animado 5s infinite reverse;
@@ -32,4 +34,12 @@ h4 {
 	100%{
 		background-position-x: 100%;
 	}
+}
+
+#spo {
+	margin: 6.6rem;
+	padding: 1.5rem;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	
 }
