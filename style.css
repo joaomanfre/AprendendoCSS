@@ -1,8 +1,6 @@
-
-body{
+#spo{
 	text-align: center;
 	font-size: 15px;
-	font-family: candara;
 	color: rgb(0, 0, 0);
 
 }
@@ -20,9 +18,9 @@ h4 {
 
 .box-degrade {
 	width: 100%;
-	padding: 1px 0;
+	padding: 65px 0;
 
-	background-image: linear-gradient(to left, blue, orangered, yellow, rgb(0, 255, 0), blue, orangered);
+	background-image: linear-gradient(to left, blue, orangered, yellow, lime, blue, orangered);
 	background-size:500% 100%;
 	animation: degrade-animado 5s infinite reverse;
 }
@@ -37,9 +35,49 @@ h4 {
 }
 
 #spo {
-	margin: 6.6rem;
-	padding: 1.5rem;
+	margin: 6rem;
+	padding: 2rem;
+	margin-left: 15rem;
+	margin-right: 15rem;
 	background-color: whitesmoke;
-	border-radius: 15px;
+	border-radius: 10px;
 	
 }
+
+	body {
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		font-family: 'Quicksand';
+	}
+
+#manfre {
+		/* estilo fonte */
+		font: 700 2.5em 'Century Gothic';
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: .1em;
+
+		/* efeito */
+		background: linear-gradient(to right,
+		white, white, black, black, white, white);
+		background-size: 200% auto;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: animar 5s linear infinite;
+	}
+
+	@keyframes animar {
+		to {
+			background-position: 200%
+			center;
+		}
+	}
+
+	footer { 
+		width: 100%; 
+		padding: 2.2px 0; 
+		background-image: linear-gradient(to left, white, white, black, black, white, white); 
+		background-size: 500% 100%; 
+		animation: degrade-animado 5s infinite reverse; }
+
